@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dp_size_10"
+    android:layout_marginLeft="@dimen/dp_size_10"
+    android:layout_marginRight="@dimen/dp_size_10"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/dp_size_4"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="@dimen/dp_size_8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/dp_size_13"
+            android:layout_marginTop="@dimen/dp_size_3"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/home_joke_words_id_userheadpic_small"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="@dimen/dp_size_8"
+                android:background="@mipmap/cy_home_headimage" />
+
+            <TextView
+                android:id="@+id/user_nick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="太极张三丰"
+                android:textColor="@color/md_grey_600"
+                android:textSize="@dimen/sp_size_14" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/joke_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="这个是一个测试的内容!!!!这个是一个测试的内容!!!!这个是一个测试的内容!!!!"
+            android:textColor="@color/md_black_1000"
+            android:textSize="@dimen/sp_size_18" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp_size_10"
+            android:layout_marginTop="@dimen/dp_size_10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dp_size_5"
+                android:text="来自:"
+                android:textColor="@color/md_grey_600"
+                android:textSize="@dimen/sp_size_13" />
+
+            <TextView
+                android:id="@+id/user_origal_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="火星用户"
+                android:textColor="@color/md_grey_600"
+                android:textSize="@dimen/sp_size_13" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_size_3"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:id="@+id/home_joke_words_aggree_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dp_size_10"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/cell_iv_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dp_size_3"
+                    android:background="@mipmap/cy_home_joke_agree" />
+
+                <TextView
+                    android:id="@+id/cell_tv_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1207"
+                    android:textColor="@color/md_grey_400"
+                    android:textSize="@dimen/sp_size_12" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/home_joke_words_against_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dp_size_10"
+                android:layout_toRightOf="@id/home_joke_words_aggree_layout"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/cell_iv_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dp_size_3"
+                    android:background="@mipmap/cy_home_joke_against_" />
+
+                <TextView
+                    android:id="@+id/cell_tv_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="121"
+                    android:textColor="@color/md_grey_400"
+                    android:textSize="@dimen/sp_size_12" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/home_joke_words_comment_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/home_joke_words_against_layout"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/cell_iv_three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dp_size_3"
+                    android:background="@mipmap/cy_home_joke_comment" />
+
+                <TextView
+                    android:id="@+id/cell_tv_three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="521"
+                    android:textColor="@color/md_grey_400"
+                    android:textSize="@dimen/sp_size_12" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/home_joke_words_share_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/cell_iv_four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dp_size_5"
+                    android:background="@mipmap/cy_home_joke_content_share" />
+
+                <TextView
+                    android:id="@+id/cell_tv_four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="510"
+                    android:textColor="@color/md_grey_400"
+                    android:textSize="@dimen/sp_size_12" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
