@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cjw.chiyudatamodel.test" >
+    package="com.cjw.chiyu.data.test" >
 
     <uses-sdk
-        android:minSdkVersion="19"
+        android:minSdkVersion="17"
         android:targetSdkVersion="23" />
 
     <instrumentation
         android:name="android.test.InstrumentationTestRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for com.cjw.chiyudatamodel.test"
-        android:targetPackage="com.cjw.chiyudatamodel.test" />
+        android:label="Tests for com.cjw.chiyu.data.test"
+        android:targetPackage="com.cjw.chiyu.data.test" />
 
     <application>
         <uses-library android:name="android.test.runner" />

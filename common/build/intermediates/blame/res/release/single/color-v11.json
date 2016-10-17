@@ -1,10 +1,10 @@
 [
     {
-        "merged": "E:\\chiyu\\common\\build\\intermediates\\res\\merged\\release\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "E:\\chiyu\\common\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "G:\\worktool\\workspace\\chiyu\\common\\build\\intermediates\\res\\merged\\release\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "G:\\worktool\\workspace\\chiyu\\common\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "E:\\chiyu\\common\\build\\intermediates\\res\\merged\\release\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "E:\\chiyu\\common\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+        "merged": "G:\\worktool\\workspace\\chiyu\\common\\build\\intermediates\\res\\merged\\release\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "G:\\worktool\\workspace\\chiyu\\common\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     }
 ]

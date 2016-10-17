@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/sk1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_joke"
+            android:icon="@mipmap/cy_home_menu_home"
+            android:title="笑话" />
+        <item
+            android:id="@+id/nav_ghost"
+            android:icon="@mipmap/cy_home_menu_ghost_story"
+            android:title="鬼故事" />
+        <item
+            android:id="@+id/nav_interesting"
+            android:icon="@mipmap/cy_home_menu_amusing"
+            android:title="趣物" />
+    </group>
+    <group
+        android:id="@+id/sk2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_me_history"
+            android:icon="@mipmap/cy_home_menu_history"
+            android:title="历史" />
+        <item
+            android:id="@+id/nav_me_house"
+            android:icon="@mipmap/cy_home_menu_house"
+            android:title="收藏" />
+        <item
+            android:id="@+id/nav_me_attention"
+            android:icon="@mipmap/cy_home_menu_about"
+            android:title="关注" />
+    </group>
+    <group
+        android:id="@+id/sk3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_me_setting"
+            android:icon="@mipmap/cy_home_menu_setting"
+            android:title="设置" />
+    </group>
+</menu>
